@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>A Template Web App</title>
+<style>
+body {
+	display: grid;
+	min-height: 60svh;
+	place-items: center;
+	margin: 10% 0;
+}
+ul {
+	list-style: none;
+}
+form {
+	display: grid;
+	place-items: center;
+	gap: .5rem;
+}
+</style>
+	</head>
+	<body>
+		<h2>SAMPLE</h2>
+		<ul>
+		</ul>
+		<form action = "http://172.26.190.191:10633/form">
+			<select title="form" id="in-form" name="in-form">
+				<option value=""> Form Options</option>	
+			</select>
+		</form>
+	</body>
+</html>
+	<!--
+	 <form action={{ url_for('in-form') }}" method="post">
+		<label for="form">Choose one</label>
+	 -->
